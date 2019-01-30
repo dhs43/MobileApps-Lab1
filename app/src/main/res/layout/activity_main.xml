@@ -19,7 +19,8 @@
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="7dp"
-        android:hint="  Username"
+        android:hint="Username"
+        android:padding="5dp"
         android:background="#FFFF"/>
 
 
@@ -31,12 +32,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginRight="25dp"
         android:layout_marginLeft="25dp"
-        android:hint="  Password"
+        android:layout_marginRight="25dp"
+        android:hint="Password"
+        android:padding="7dp"
         android:inputType="textPassword"
-        android:background="#FFFF"
-        />
+        android:background="#FFFF" />
     
     <Button
         android:id="@+id/btnLogin"
@@ -46,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@id/etPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="7dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:backgroundTint="#a3c4dc"/>
